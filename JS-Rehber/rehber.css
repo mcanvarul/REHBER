@@ -1,0 +1,61 @@
+:root {
+  --main-color: rgb(46, 63, 162);
+  --main-color-light: rgba(160, 153, 139, 0.5);
+}
+
+* {
+  margin: 50;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    var(--main-color),
+    var(--main-color-light)
+  );
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.btn {
+  border: 0;
+  outline: none;
+  padding: 0;
+  font-size: 1.3rem;
+}
+
+.btn--edit {
+  color: rgb(34, 149, 34);
+}
+
+.btn--delete {
+  color: rgb(199, 41, 41);
+}
+
+.bilgi {
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 4px;
+  color: black;
+}
+
+.bilgi--error {
+  border: 1px solid green;
+}
+
+.bilgi--success {
+  border: 1px solid goldenrod;
+}
+
+.far {
+  pointer-events: none;
+}
+.container {
+  margin: 3rem;
+  padding: 8rem;
+  border-radius: 4px;
+  color: rgba(9, 9, 9, 0.86);
+  font-size: 2rem;
+}
